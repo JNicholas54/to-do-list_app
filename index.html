@@ -13,10 +13,10 @@
 			<p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
 		
 			<form name="toDoList">
-				<input type="text" name="ListItem" id="input"/>
+				<textarea type="text" name="ListItem" id="input" autofocus></textarea>
 			</form>
 		
-			<div onclick="newItem()" id="button">Add</div>
+			<div onclick="toDoList.newItem()" id="button">Add</div>
 			<br/>
 			<ol id="list"></ol>
 		</div>
